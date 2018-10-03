@@ -9,4 +9,4 @@ const dice = require('./dice');
  */
 const trait = () => dice() + dice() + dice();
 
-module.export = trait;
+module.exports = trait;

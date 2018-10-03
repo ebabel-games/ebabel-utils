@@ -9,4 +9,4 @@ const { random } = require('ebabel-random');
  */
 const dice = () => random(6);
 
-module.export = dice;
+module.exports = dice;

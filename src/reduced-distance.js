@@ -16,4 +16,4 @@ const reducedDistance = (i, j, r) => {
   ];
 };
 
-module.export = reducedDistance;
+module.exports = reducedDistance;
