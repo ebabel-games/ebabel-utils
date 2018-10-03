@@ -1,6 +1,6 @@
 'use strict';
 
-const { random } = require('ebabel-random');
+const random = require('ebabel-random');
 
 /**
  * `dice`

@@ -7,6 +7,7 @@
  * @param {array} i - Array of 3 numbers for the coordinates x, y, z of the source point.
  * @param {array} j - Array of 3 numbers for the coordicates x, y, z of the target point.
  * @param {number} r - Number by which the distance between i and j needs to be reduced.
+ * @returns {array} Array of coordinates the i position should get to in order to get closer to j.
  */
 const reducedDistance = (i, j, r) => {
   return [
