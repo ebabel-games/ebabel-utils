@@ -1,11 +1,23 @@
 'use strict';
 
+const dice = require('./src/dice');
+const trait = require('./src/trait');
+const positive = require('./src/positive');
+const randomPosOrNeg = require('./src/random-pos-or-neg');
+const reducedDistance = require('./src/reduced-distance');
+const randomPosition = require('./src/random-position');
+const deepCopy = require('./src/deep-copy');
+
 /**
  * `ebabelUtils`
  * Small utility functions for game development.
  */
-const ebabelUtils = require('./src/ebabel-utils');
-
 module.exports = {
-  ebabelUtils,
+  dice,
+  trait,
+  positive,
+  randomPosOrNeg,
+  reducedDistance,
+  randomPosition,
+  deepCopy,
 };
