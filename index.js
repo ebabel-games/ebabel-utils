@@ -8,10 +8,6 @@ const reducedDistance = require('./src/reduced-distance');
 const randomPosition = require('./src/random-position');
 const deepCopy = require('./src/deep-copy');
 
-/**
- * `ebabelUtils`
- * Small utility functions for game development.
- */
 module.exports = {
   dice,
   trait,
