@@ -1,5 +1,5 @@
 # ebabel-utils
-[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-utils.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-utils)
+[![Build Status](https://travis-ci.org/ebabel-games/ebabel-utils.svg?branch=master)](https://travis-ci.org/ebabel-games/ebabel-utils)
 
 Small utility functions for game development.
 

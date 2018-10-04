@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebabel-eu/ebabel-utils.git"
+    "url": "git+https://github.com/ebabel-games/ebabel-utils.git"
   },
   "keywords": [
     "games",
@@ -26,16 +26,16 @@
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ebabel-eu/ebabel-utils/issues"
+    "url": "https://github.com/ebabel-games/ebabel-utils/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/ebabel-utils#readme",
+  "homepage": "https://github.com/ebabel-games/ebabel-utils#readme",
   "dependencies": {
     "ebabel-random": "^1.1.3"
   },
   "devDependencies": {
     "ajv": "^6.5.4",
     "babel-eslint": "^10.0.1",
-    "ebabel-mocks": "^1.0.4",
+    "ebabel-mocks": "^1.0.5",
     "eslint": "^5.6.1",
     "jest": "^23.6.0",
     "jsdoc": "^3.5.5"
