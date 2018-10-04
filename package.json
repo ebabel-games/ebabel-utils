@@ -1,6 +1,6 @@
 {
   "name": "ebabel-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small utility functions for game development.",
   "main": "index.js",
   "engines": {

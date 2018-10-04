@@ -12,9 +12,43 @@ npm install --save ebabel-utils
 
 ### Usage
 ```
-const { ebabelUtils } = require('ebabel-utils');
+const {
+  deepCopy,
+  dice,
+  positive,
+  randomPosition,
+  randomPosOrNeg,
+  reducedDistance,
+  trait,
+} = require('ebabel-utils');
 
-const result = ebabelUtils();
+// deepCopy
+const original = { strength: 12, life: 56 };
+const copy = deepCopy(original);
+
+// dice
+const result = dice();
+
+// positive
+const attack = 5;
+const defense = 17;
+const score = positive(attack - defense);
+
+// randomPosition
+const spawnAreaSize = [3000, 2000, 3000];
+const spawnPosition = randomPosition(spawnAreaSize);
+
+// randomPosOrNeg
+const spellFizzleEffect = randomPosOrNeg(16);
+
+// reducedDistance
+const attackingNpcPosition = [45, 23, -65];
+const playerPosition = [34, 0, -10];
+const howMuchCloser = 5;
+const attackingNpcNextPosition = reducedDistance(attackingNpcPosition, playerPosition, howMuchCloser);
+
+// trait
+const stamina = trait();
 ```
 
 ## Development of this module
