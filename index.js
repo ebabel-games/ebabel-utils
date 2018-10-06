@@ -7,6 +7,9 @@ const randomPosOrNeg = require('./src/random-pos-or-neg');
 const reducedDistance = require('./src/reduced-distance');
 const randomPosition = require('./src/random-position');
 const deepCopy = require('./src/deep-copy');
+const countArrayElements = require('./src/count-array-elements');
+const distance = require('./src/distance');
+const guid = require('./src/');
 
 module.exports = {
   dice,
@@ -16,4 +19,7 @@ module.exports = {
   reducedDistance,
   randomPosition,
   deepCopy,
+  countArrayElements,
+  distance,
+  guid,
 };
