@@ -9,7 +9,9 @@ const randomPosition = require('./src/random-position');
 const deepCopy = require('./src/deep-copy');
 const countArrayElements = require('./src/count-array-elements');
 const distance = require('./src/distance');
-const guid = require('./src/');
+const guid = require('./src/guid');
+const Ido = require('./src/ido');
+const preventXss = require('./src/prevent-xssprevent-xss');
 
 module.exports = {
   dice,
@@ -22,4 +24,6 @@ module.exports = {
   countArrayElements,
   distance,
   guid,
+  Ido,
+  preventXss,
 };
