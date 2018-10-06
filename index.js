@@ -12,6 +12,7 @@ const distance = require('./src/distance');
 const guid = require('./src/guid');
 const Ido = require('./src/ido');
 const preventXss = require('./src/prevent-xssprevent-xss');
+const random = require('./src/random');
 
 module.exports = {
   dice,
@@ -26,4 +27,5 @@ module.exports = {
   guid,
   Ido,
   preventXss,
+  random,
 };
