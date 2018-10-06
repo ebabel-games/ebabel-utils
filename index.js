@@ -13,6 +13,7 @@ const guid = require('./src/guid');
 const Ido = require('./src/ido');
 const preventXss = require('./src/prevent-xssprevent-xss');
 const random = require('./src/random');
+const randomList = require('./src/random-list');
 
 module.exports = {
   dice,
@@ -28,4 +29,5 @@ module.exports = {
   Ido,
   preventXss,
   random,
+  randomList,
 };
