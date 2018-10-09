@@ -90,8 +90,8 @@ expect(result <= 3).toBe(true);
 // randomList
 const input = {source:['orc', 'goblin', 'orc', 'orc', 'elf', 'elf'],max:2};
 const result = randomList(input);
-expect(result.list!=[]).toBe(true);
-expect(result.rest!=[]).toBe(true); 
+expect(result.list.length).toBe(2);
+expect(result.rest.length).toBe(4); 
 
 
 
