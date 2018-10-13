@@ -3,7 +3,7 @@
 /**
  * `positive`
  * Computes the positive rounded up value of the input.
- * @example <caption>Example usage of method1.</caption>
+ * @example <caption>Example usage of positive</caption>
  * const attack = 5;
  * const defense = 17;
  * const score = positive(attack - defense); 
