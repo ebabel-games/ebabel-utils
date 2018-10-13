@@ -3,6 +3,10 @@
 /**
  * `positive`
  * Computes the positive rounded up value of the input.
+ * @example <caption>Example usage of method1.</caption>
+ * const attack = 5;
+ * const defense = 17;
+ * const score = positive(attack - defense); 
  * @param {number} input - Number to be converted into positive.
  * @returns {number} Positive value of the input number.
  */
