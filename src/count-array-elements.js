@@ -4,6 +4,14 @@
  * `countArrayElements`
  * Returns an object that counts how many times each element is present in a given array.
  * @param {array} input - Array where element occurences need to be counted.
+ * // countArrayElements
+ * @example <caption>Example usage of countArrayElements</caption>
+ * const input = ['orc', 'goblin', 'orc', 'orc', 'elf', 'elf'];
+ * const result = countArrayElements(input);
+ * expect(result['orc']).toBe(3);
+ * expect(result['goblin']).toBe(1);
+ * expect(result['elf']).toBe(2);
+ * @returns {number} Return count of matching elements.
  */
 const countArrayElements = (input) => {
   if (!Array.isArray(input)) {
