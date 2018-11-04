@@ -7,7 +7,7 @@ const dice = require('./dice');
  * Throw 3 dices.
  * @example <caption>Example usage of dice</caption>
  * const stamina = trait();
- * @returns {number} Return a random integer from 3 to 18.
+ * @returns {Number} Return a random integer from 3 to 18.
  */
 
 

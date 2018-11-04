@@ -3,10 +3,10 @@
 /**
  * `randomList`
  * Returns the subset of a list of x elements from a larger source list.
- * @param {object} input - Input properties: source and max.
- * @param {array} input.source - The source property is the array from which a max number of elements will be randomly selected.
- * @param {number} input.max - Number of elements that will be randomly selected from input.source
- * @returns {object} 2 arrays in an object: list and rest.
+ * @param {Object} input - Input properties: source and max.
+ * @param {Array} input.source - The source property is the array from which a max number of elements will be randomly selected.
+ * @param {Number} input.max - Number of elements that will be randomly selected from input.source
+ * @returns {Object} 2 arrays in an object: list and rest.
  */
 const randomList = (input) => {
   if (!input) {

@@ -9,7 +9,7 @@ const s4 = () => Math.floor((1 + Math.random()) * 0x10000)
  * Returns a globally unique id string following the standard guid format.
  * @example <caption>Example usage of guid</caption>
  * const result = guid();
- * @returns {string} Guid of 36 characters, including hyphens.
+ * @returns {String} Guid of 36 characters, including hyphens.
  */
 const guid = () => `${s4()}${s4()}-${s4()}-${s4()}-${s4()}-${s4()}${s4()}${s4()}`;
 

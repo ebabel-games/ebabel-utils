@@ -3,13 +3,13 @@
 /**
  * `distance`
  * Calculate the distance in 3D space from point "i" x, y, and z coordinates to point "j" x, y, and z coordinates.
- * @param {array} i - Array start position in 3D space e.g. [-10, 5.1, 3]
- * @param {array} j - Array end position in 3D space e.g. [0, 15.1, -7]
+ * @param {Array} i - Array start position in 3D space e.g. [-10, 5.1, 3]
+ * @param {Array} j - Array end position in 3D space e.g. [0, 15.1, -7]
  * @example <caption>Example usage of distance</caption>
  * const i = [0, 0, 0];
  * const j = [10, 0, 0];
  * const result = distance(i, j);
- * @returns {number} Distance between i and j.
+ * @returns {Number} Distance between i and j.
  */
 const distance = (i, j) => {  
   if (!i && !j) throw new Error('Invalid input - need two sets coordinates.');
