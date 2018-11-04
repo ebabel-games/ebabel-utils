@@ -1,5 +1,8 @@
 # Changelog of ebabel-utils
 
+## [1.2.0](https://github.com/ebabel-games/ebabel-utils/releases/tag/v1.2.0)
+- New version of random-position to support exclusion area around origin point. This is backward compatible with previous signature since exclusion parameter is optional.
+
 ## [1.1.1](https://github.com/ebabel-games/ebabel-utils/releases/tag/v1.1.1)
 - Improve changelog.
 

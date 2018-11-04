@@ -11,10 +11,10 @@ test('simple array test', () => {
 });
 
 test('missing input array', () => {
-  expect(() => countArrayElements().toThrowError('Missing array, so it is not possible to count members of that array.'));
+  expect(() => countArrayElements()).toThrowError('Missing array, so it is not possible to count members of that array.');
 });
 
 test('empty input ', () => {
   const input = null;
-  expect(() => countArrayElements(input).toThrowError('Missing array, so it is not possible to count members of that array.'));
+  expect(() => countArrayElements(input)).toThrowError('Missing array, so it is not possible to count members of that array.');
 });
